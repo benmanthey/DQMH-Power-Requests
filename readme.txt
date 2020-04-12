@@ -1,4 +1,4 @@
-Windows Power Availability Requests Labview Interface
+DQMH modules for Windows Power Requests
 Ben Manthey
 ben.manthey@gmail.com
 https://github.com/benmanthey/DQMH-Power-Requests
