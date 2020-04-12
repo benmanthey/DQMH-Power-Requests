@@ -1,0 +1,3 @@
+[submodule "Power-Requests"]
+	path = Power-Requests
+	url = https://github.com/benmanthey/Power-Requests.git
