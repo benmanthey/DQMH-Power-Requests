@@ -74,9 +74,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Power Availability Requests AE.vi" Type="VI" URL="../../code/Power Availabilty Requests/Power Availability Requests AE.vi"/>
-			<Item Name="Power Availiability Requests Functions.ctl" Type="VI" URL="../../code/Power Availabilty Requests/Type Defs/Power Availiability Requests Functions.ctl"/>
-			<Item Name="Power Request Type.ctl" Type="VI" URL="../../code/Power Availabilty Requests/Type Defs/Power Request Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
