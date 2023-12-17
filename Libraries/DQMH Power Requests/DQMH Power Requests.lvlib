@@ -49,6 +49,7 @@
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
+		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -70,22 +71,36 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
-		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
-		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
-		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
-		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
-		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
-		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
-		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
-		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
-		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
-		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
-		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Constants" Type="Folder">
+			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
+			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		</Item>
+		<Item Name="Errors" Type="Folder">
+			<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
+			<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
+			<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
+			<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		</Item>
+		<Item Name="Framework Support" Type="Folder">
+			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
+			<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
+			<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+			<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
+			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+			<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
+		</Item>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Semaphore" Type="Folder">
+			<Item Name="Obtain Module Semaphore.vi" Type="VI" URL="../Obtain Module Semaphore.vi"/>
+			<Item Name="Acquire Module Semaphore.vi" Type="VI" URL="../Acquire Module Semaphore.vi"/>
+			<Item Name="Release Module Semaphore.vi" Type="VI" URL="../Release Module Semaphore.vi"/>
+			<Item Name="Destroy Module Semaphore Reference.vi" Type="VI" URL="../Destroy Module Semaphore Reference.vi"/>
+		</Item>
 		<Item Name="Destroy Sync Refnums.vi" Type="VI" URL="../Destroy Sync Refnums.vi"/>
 		<Item Name="Get Sync Refnums.vi" Type="VI" URL="../Get Sync Refnums.vi"/>
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
